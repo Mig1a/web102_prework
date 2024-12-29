@@ -62,7 +62,7 @@ The following **optional** features are implemented:
 
 Below is a walkthrough of the Crowdfund Arcade application:
 
-![Walkthrough](web102_prework/assets/Pre-work_walk%20through.gif)
+<img src='Pre-work_walk through.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 
