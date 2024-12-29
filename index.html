@@ -7,6 +7,11 @@
   </head>
 
   <body>
+    <nav class="navbar">
+        <a href="#description-container">About Us</a>
+        <a href="#stats-container">Stats</a>
+        <a href="#games-container">Our Games</a>
+    </nav>
     <!-- header row with logo -->
     <div class="header">
         <img id="tentacles" src="assets/tentacles.png">
@@ -24,8 +29,7 @@
     <div class="stats-container">
         <div class="stats-card">
             <h3>Individual Contributions</h3>
-            <p id="num-contributions">
-            </p>
+            <p id="num-contributions"></p>
         </div>
         <div class="stats-card">
             <h3>Total Raised</h3>
@@ -50,6 +54,9 @@
     <!-- list of games funded by Sea Monster -->
     <h2>Our Games</h2>
     <p>Check out each of our games below!</p>
+    <div id="search-container">
+        <input type="text" id="search-bar" placeholder="Search for a game..." />
+    </div>
     <div id="button-container">
         <button id="unfunded-btn">Show Unfunded Only</button>
         <button id="funded-btn">Show Funded Only</button>
@@ -58,6 +65,9 @@
     <div id="games-container">
 
     </div>
+    <footer class="footer">
+        <p>© 2024 Sea Monster Crowdfunding. All rights reserved.</p>
+    </footer>
 
     <script type="module" src="index.js"></script>
   </body>
